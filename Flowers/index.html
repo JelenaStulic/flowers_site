@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac23297433.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Flowers</title>
+</head>
+<body>
+    <main class = "main">
+        <header class="header-container">
+            <div class="up-line">
+                <div class="text-wrapper row align-items-start">
+                    <div class="up-line-text-1 col">
+                        <p><strong>-10% za</strong> članove <strong><em>Loyalty card</em></strong></p>
+                    </div>
+                    <div class="up-line-text-2 col">
+                        <p><i class="fas fa-rocket"></i><strong>Besplatna</strong> <em>dostava</em></p>
+                    </div>
+                    <div class="up-line-text-3 col">
+                        <p><i class="far fa-money-bill-alt"></i><em>PDV uračunat u cenu</em></p>
+                    </div>
+                    <div class="up-line-text-4 col">
+                        <p><i class="far fa-thumbs-up"></i><strong>100,000+</strong> <em>Zadovoljnih kupaca</em></p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar row">
+                <div class="logo col">
+                    <div>
+                       <img id="logo" src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature">
+                    </div>
+                </div>
+                <div class="nav-menu col">
+                  <ul>
+                    <li><a href="index.html">POČETNA</a></li>
+                    <li><a href="#">O NAMA</a></li>
+                    <li><a href="#">SHOP</a><i class="fas fa-chevron-down" style="font-size: 10px"  style="color: rgb(141, 80, 80)"></i></li> <!-- prostor za modal ili dropmeni -->
+           <!--   ----------------------------------------------------------------------------------- -->
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
+                         Dropdown <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li class="dropdown">
+                            <a href="#">One more dropdown</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li class="dropdown">
+                                <a href="#">One more dropdown</a>
+                                <ul class="dropdown-menu">
+                                ...
+                                </ul>
+                              </li>
+                              <li><a href="#">Something else here</a></li>
+                              <li><a href="#">Separated link</a></li>
+                             </ul>
+                          </li>
+                          <li><a href="#">Something else here</a></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                      </div>
+                    <li><a href="#">BLOG</a></li>
+                  </ul>  
+                </div>
+           <!--   ----------------------------------------------------------------------------------- -->
+                <div class="right-nav col">
+                    <div class="sign-in icon1">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="uporedi-proizvode">
+                        <div class="icon1"><i class="fas fa-random"></i></div>
+                        <div class="kruzic1"></div>
+                        <!--   -->
+                    </div>
+                    <div class="shopping-bag">
+                        <div class="icon1"><i class="fas fa-shopping-bag"></i></div>
+                        <div class="kruzic2"></div>
+                    </div>
+                    <div class="cena">
+                        <div>0,00 RSD</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <hr class="hr-line">
+
+        <section id="slider-demo" class="py5" style="background-color: red;"></section>
+        <div class="main-content container">
+            <div class="row py-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="flower-pot"><img src="images/bofe.svg" alt="flower" height="120px" width="110px"></div>
+                        <div>
+                            <h5>Zahvali se!</h5>
+                            <p>Sa stilom</p>
+                        </div>
+                    </div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                    <div class="item"><img src="https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w" alt="nature"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-container">
+            <div class="main-container">
+                <div class="footer-content1">
+                    <div class="footer-content1-main-text">
+                        <div><img src="" alt=""></div>
+                        <div><p>Pored On-line prodavnice, Cvećara Ivona nalazi se na četiri atraktivne lokacije u Beogradu.</p></div>
+                        <div class="location">
+                            <i class="fas fa-location-arrow"></i><p>Bul. Kralja Aleksandra 263b, Bulevar</p><br>
+                            <i class="fas fa-location-arrow"></i><p>Dr Milutina Ivkovića 2a, Autokomanda</p><br>
+                            <i class="fas fa-location-arrow"></i><p>Jurija Gagarina 16, Lokal 102, Delta City</p><br>
+                            <i class="fas fa-location-arrow"></i><p>Bulevar Vudro Vilsona 12, BW Galerija</p><br>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <div class="icon-facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="icon-instagram">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content2"></div>
+                <div class="footer-content3"></div>
+                <div class="footer-content4"></div>
+            </div>
+            <div class="copyright">
+
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/bootstrap-dropdownhover.min.js"></script>
+    
+    <!-- <script src="jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/owl.carousel.js"></script>
+   <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script> -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+</body>
+</html>

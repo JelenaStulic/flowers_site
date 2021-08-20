@@ -1,0 +1,96 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica", Sans-Serif;
+    background-color: #FBFBEF;
+}
+
+a {
+    color: black;
+}
+
+.text-wrapper {
+    background-color: #A2D9CE; 
+    font-size: 15px;
+    color: #fff;
+    height: 25px;
+}
+
+.text-wrapper > .col {
+    text-align: center;
+}
+
+.up-line-text-1, .up-line-text-2, .up-line-text-3 { 
+    border-right: 2px solid #fff;
+    height: 22px;
+    top: 1px;
+}
+
+.nav-bar {
+    height: 90px;
+}
+
+.nav-menu {
+    padding: 30px;
+    text-align: center;
+}
+
+.nav-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu > ul > li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    color: black;
+}
+
+.nav-menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.text-wrapper > .col > p > i {
+    padding-right: 6px;
+}
+
+.nav-bar > .logo {
+    height: 90px;
+}
+
+#logo {
+    height: 100px;
+    width: 240px;
+    padding: 15px;
+    margin: auto;
+}
+
+.logo > div {
+    text-align: center;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.right-nav > div {
+    display: flex;
+    align-items: center;
+}
+
+.icon1 {
+    padding: 10px;
+}
+
+.flower-pot {
+  /*  position: relative;*/
+  height: 100px;
+  width: 90px;
+}
